@@ -1073,10 +1073,11 @@ body.is-loader {
 	position: relative;
 }
 .footer-logo {
-	width: 300rem;
+	width: max(180px, 200rem);
 	position: absolute;
-	left: 0;
-	top: 22rem;
+	left: 50%;
+	transform: translateX(-50%);
+	top: -65rem;
 }
 .footer-logo img {
 	width: 100%;
